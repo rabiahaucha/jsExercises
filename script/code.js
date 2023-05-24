@@ -45,3 +45,23 @@ function fullName (){
     }
 
 console.log(fullName());
+
+function age(){
+    let myAge = "20";
+    return myAge
+ 
+}
+console.log(age());
+
+function subjects(){
+    let subjects = [ "Math","Geography","History","Coding"]
+    return subjects
+}
+console.log(subjects());
+
+function address (){
+    let address = [ "Uppercamp","37","Maitland","Cape Town","South Africa"
+    ]
+    return address
+}
+console.log(address())
