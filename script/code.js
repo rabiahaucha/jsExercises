@@ -65,3 +65,41 @@ function address (){
     return address
 }
 console.log(address())
+
+
+function cal(){
+    let num1 = +document.getElementById("number1").value
+    let num2 = +document.getElementById("number2").value
+    let operator = document.getElementById("operator").value
+    let display = document.getElementById("test")
+    console.log(operator);
+    if(operator == "+"){
+        display.innerText = num1 + num2
+    } else if(operator == "-"){
+        display.textContent = num1 - num2
+    }else if(operator == "*"){
+        display.textContent = num1 * num2
+    }else if(operator == "/"){
+        display.textContent = num1 / num2
+    }
+
+}
+// function 
+function reverseString(str) {
+
+  
+    let newString = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+        newString += str[i];
+    }
+    return newString;
+}
+
+// variable
+let subject = ('programming');
+
+// reverse the elements in the previous variable
+let result = reverseString(subject);
+console.log(result);
+
+
